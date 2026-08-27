@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доступ ограничен</title>
+	
+    <style>
+        body {
+            background-color: #121214;
+            color: #e1e1e6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .block-card {
+            text-align: center;
+            padding: 25px;
+            max-width: 400px;
+            background-color: #202024;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+        .anime-img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        p {
+            font-size: 0.95rem;
+            color: #8d8d99;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        blockquote {
+            font-size: 1.25rem;
+            color: #ff79c6;
+            font-weight: bold;
+            margin: 0;
+            padding: 0 10px;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="block-card">
+        <!-- Аниме картинка над текстом -->
+        <img class="anime-img" src="https://www.kino-teatr.ru/news/32317/294572.jpg" alt="Anime Character">
+        
+        <!-- Ваш кастомный блок с текстом -->
+        <p>A message from yourself:</p>
+        <blockquote id="lbCustomMsg">Этот сайт испортился не сиди там</blockquote>
+    </div>
+
+</body>
+</html>
